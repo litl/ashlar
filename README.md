@@ -41,6 +41,6 @@ at a given width and tiles per chunk.
 
 
     // Tiles are defined by javascript objects with the properties
-    // x, y, width, height and can be used to position images the
+    // x, y, width, height and can be used to position the
     // corresponding images as desired.
     var tiles = ashlar.layout(photos, 1024, 5);
