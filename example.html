@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>Ashlar</title>
+        <script src="sylvester.js"></script>
+        <script src="ashlar.js"></script>
+    </head>
+    <body>
+        <div id="container">
+            <div class="photo" data-src="demo/apples1.jpg" ></div>
+            <div class="photo" data-src="demo/barn1.jpg"></div>
+            <div class="photo" data-src="demo/apples2.jpg"></div>
+            <div class="photo" data-src="demo/ladders1.jpg"></div>
+            <div class="photo" data-src="demo/pumpkins1.jpg"></div>
+            <div class="photo" data-src="demo/ladders2.jpg"></div>
+        </div>
+
+        <script>
+            ashlar.init('#container', {
+                photoSelector: '.photo',
+                chunkSize: 2,
+                width: 450
+            });
+        </script>
+    </body>
+</html>
