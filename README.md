@@ -28,7 +28,7 @@ Use the init() function to layout a container with images specified in HTML:
     </script>
 
 Or, for maximum flexibility, use the layout() function directly to get raw
-layout data given the aspect ratios and priorities of the contentto arrange
+layout data given the aspect ratios and priorities of the content to arrange
 at a given width and tiles per chunk.
 
     var photos = [{aspect: 0.75, priority: 1},
