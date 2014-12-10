@@ -1,5 +1,3 @@
-// Copyright 2014 litl, LLC. All Rights Reserved.
-
 var ashlar = new function() {
 
     // Layout trees
