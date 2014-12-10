@@ -58,4 +58,4 @@ at a given width and with the given number of tiles per chunk.
 
 # License
 
-MIT License
+See [LICENSE](LICENSE) file.
